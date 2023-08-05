@@ -19,7 +19,7 @@ vi prometheus.yml
   - job_name: "jenkins"
     metrics_path: /prometheus
     static_configs:
-      - targets: ['18.192.80.50:8080/']
+      - targets: ['18.192.80.50:8080']
 
 #restart prometheus pod
 docker restart f88445fcd5b2
