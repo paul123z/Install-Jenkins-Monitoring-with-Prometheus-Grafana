@@ -24,3 +24,5 @@ vi prometheus.yml
 #restart prometheus pod
 docker restart f88445fcd5b2
 
+#grafana jenkins dashboard 9964
+
